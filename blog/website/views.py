@@ -15,4 +15,4 @@ def hello_blog(request):
         'lista_tecnologias': lista, 
         'posts': list_posts }
 
-    return render(request, 'index_didatica.html', data)
+    return render(request, 'index.html', data)

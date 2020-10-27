@@ -16,6 +16,9 @@ class Post(models.Model):
         default=Category.GR,
     )  
 
+    imagem = models.ImageField(upload_to = 'posts', null=True, blank=True)
+
+
 
     def __str__(self):
         return self.title

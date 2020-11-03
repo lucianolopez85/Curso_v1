@@ -7,7 +7,7 @@ SECRET_KEY = '_s(###!6e8lh9i(!!xs&7sf10nab(^fx5q20#%ndnfz+1av942'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '15.228.23.113']
+ALLOWED_HOSTS = ['15.228.23.113']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -34,7 +34,7 @@ ROOT_URLCONF = 'blog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': [os.path.join(BASE_DIR, 'website/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

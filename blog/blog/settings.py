@@ -6,7 +6,7 @@ SECRET_KEY = '_s(###!6e8lh9i(!!xs&7sf10nab(^fx5q20#%ndnfz+1av942'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-18-228-28-84.sa-east-1.compute.amazonaws.com']
+ALLOWED_HOSTS = ['localhost, '18.228.28.84']
 
 INSTALLED_APPS = [
     'django.contrib.admin',

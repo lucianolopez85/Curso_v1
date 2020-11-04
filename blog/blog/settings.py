@@ -1,4 +1,3 @@
-from pathlib import Path
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -7,7 +6,7 @@ SECRET_KEY = '_s(###!6e8lh9i(!!xs&7sf10nab(^fx5q20#%ndnfz+1av942'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost, ''15.228.23.113']
+ALLOWED_HOSTS = ['localhost', '15.228.23.113']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -80,10 +79,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
